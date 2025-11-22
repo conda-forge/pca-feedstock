@@ -1,4 +1,4 @@
-{% set version = "2.10.0" %}
+{% set version = "2.10.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pca/pca-{{ version }}.tar.gz
-  sha256: 84c026fd87f8dee086be8ae86e735c442cde167219dac2369cbcae0b0cc66511
+  sha256: 8d9b3d9fb0d9fde4a84bf9392ca49a4e9440d4f10432af0dfdf07be20686cf65
 
 build:
   number: 0
