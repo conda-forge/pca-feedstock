@@ -9,7 +9,6 @@ Package license: MIT
 
 Summary: 'pca: A Python Package for Principal Component Analysis.'
 
-
 Current build status
 ====================
 
