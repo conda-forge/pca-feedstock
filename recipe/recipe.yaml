@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 2.10.1
+  version: "2.10.2"
 
 package:
   name: pca
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pca/pca-${{ version }}.tar.gz
-  sha256: 8d9b3d9fb0d9fde4a84bf9392ca49a4e9440d4f10432af0dfdf07be20686cf65
+  sha256: 4c5f7bc7e82c02349fc260b1957b5332882a94677b1c822b81038d0f819c5562
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
