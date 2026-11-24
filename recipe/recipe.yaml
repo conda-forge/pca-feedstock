@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.10.2"
+  version: "2.10.3"
 
 package:
   name: pca
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pca/pca-${{ version }}.tar.gz
-  sha256: 4c5f7bc7e82c02349fc260b1957b5332882a94677b1c822b81038d0f819c5562
+  sha256: 93e9c277bbfe8a552de4182a53d180a8c0b3e5b238c7cd9964ab833564ae807b
 
 build:
   number: 0
